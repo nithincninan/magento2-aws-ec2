@@ -1,4 +1,4 @@
-# magento-on-aws
+# Magento On Aamazon Web Service
 Magento on AWS
 
 Magento Open Spource -> AWS cloud
