@@ -54,6 +54,9 @@
         * Create a key pair in your preferred region
 ```
 
+      ![create-key-pair](https://user-images.githubusercontent.com/2525741/122653031-9d888400-d15f-11eb-858f-41e08af67455.png)
+
+
    Step 2. Download the Magento Software
 
 ```
@@ -73,3 +76,8 @@
         * When the AWS CloudFormation template has successfully created the stack, all web server nodes will be running with the software installed in your AWS account. To connect to the Magento stack, use the URL of the Elastic Load Balancing endpoint
 
 ```
+
+   ![elb-endpoint](https://user-images.githubusercontent.com/2525741/122653044-b002bd80-d15f-11eb-9cd3-c2ec8fe027e2.png)
+   
+   ![web-store](https://user-images.githubusercontent.com/2525741/122653056-c01a9d00-d15f-11eb-90d4-8b7badf8c936.png)
+
