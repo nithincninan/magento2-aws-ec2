@@ -54,7 +54,7 @@
         * Create a key pair in your preferred region
 ```
 
-      ![create-key-pair](https://user-images.githubusercontent.com/2525741/122653031-9d888400-d15f-11eb-858f-41e08af67455.png)
+   ![create-key-pair](https://user-images.githubusercontent.com/2525741/122653031-9d888400-d15f-11eb-858f-41e08af67455.png)
 
 
    Step 2. Download the Magento Software
