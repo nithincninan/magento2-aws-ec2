@@ -1,9 +1,10 @@
 # Magento On Amazon Web Service
 
-**1) Magento on AWS:**
-   
-    >>>> Magento is an open-source content management system for e-commerce websites. AWS enables you to set up the infrastructure to support Magento deployment in a flexible, scalable, and cost-effective manner in the AWS Cloud.
-         
+**Magento on AWS:**
+
+```   
+    * Magento is an open-source content management system for e-commerce websites. AWS enables you to set up the infrastructure to support Magento deployment in a flexible, scalable, and cost-effective manner in the AWS Cloud.
+```         
 
 * Magento Open Spource -> AWS cloud:
 
@@ -11,7 +12,7 @@
 
 * AWS services:
 
-
+```
     1. Amazon EC2 – The Amazon Elastic Compute Cloud (Amazon EC2) service enables you to launch virtual machine instances with a variety of operating systems. use to build and host your software systems.
     
     2. Amazon VPC – The Amazon Virtual Private Cloud (Amazon VPC) service lets you provision a private, isolated section of the AWS Cloud where you can launch AWS services and other resources in a virtual network that you define. You have complete control over your virtual networking environment, including selection of your own IP address range, subnet creation, and configuration of route tables and network gateways.
@@ -31,36 +32,44 @@
     * Elastic Load Balancing – Elastic Load Balancing automatically distributes incoming application traffic across multiple EC2 instances.
     
     * IAM – AWS Identity and Access Management (IAM) enables you to securely control access to AWS services and resources for your users. With IAM, you can manage users, security credentials such as access keys, and permissions that control which AWS resources users can access, from a central location.
-
+```
 
 * Deployment Scenarios:
 
-
+```
     * Deploy Magento into a new VPC (end-to-end deployment). This option builds a new AWS environment consisting of the VPC, subnets, NAT gateways, security groups, and other infrastructure components, and then deploys Magento into that new VPC.
 
     * Deploy Magento into an existing VPC. This option provisions Magento in your existing AWS infrastructure.
+```
 
 * Deployment steps:
 
     Step 1. Prepare an AWS Account
 
-    
+```    
         * Create an AWS account(http://aws.amazon.com)
         
         * Choose the AWS Region where you want to deploy the Magento cluster on AWS.
   
         * Create a key pair in your preferred region
-
+```
 
    Step 2. Download the Magento Software
 
+```
         *  Add the Magento downloaded files to the S3 bucket
 
-   
+```
+
    Step 3. Launch the Quick Start
-        
+
+```        
         * Deploy Magento into a new VPC on AWS (launch the AWS CloudFormation template into your AWS account.)
+```
 
    Step 4. Test Your Magento Deployment 
-    
+
+```    
         * When the AWS CloudFormation template has successfully created the stack, all web server nodes will be running with the software installed in your AWS account. To connect to the Magento stack, use the URL of the Elastic Load Balancing endpoint
+
+```
