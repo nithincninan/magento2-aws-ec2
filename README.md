@@ -1,6 +1,6 @@
-# Magento On Amazon Web Service
+# Magento 2 > Amazon Web Service > EC2
 
-**Magento on AWS:**
+**Magento2 on AWS:**
 
 ```   
     * Magento is an open-source content management system for e-commerce websites. AWS enables you to set up the infrastructure to support Magento deployment in a flexible, scalable, and cost-effective manner in the AWS Cloud.
